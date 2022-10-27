@@ -15,8 +15,12 @@ public class TestRunner {
 	@AfterClass
 	public static void report() {
 		Jvm.jvmreport("src\\test\\resources\\Reports\\Json report\\jsonreport.json");
-
+		 System.out.println("12356");
+		 System.out.println("2");
+		 System.out.println("356");
+		 
 	}
+       
 	
  
 }
